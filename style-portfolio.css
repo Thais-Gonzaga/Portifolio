@@ -1,0 +1,59 @@
+
+    /* Corpo*/ 
+    body{
+        background:linear-gradient(0deg, rgb(168, 82, 255), rgb(0, 0, 0)); 
+    }
+
+    /* Foto */
+    #foto{
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        object-fit:cover;
+    }
+   
+    /* Tititulos h2 */
+    h2, h1{
+        font-family:"Oswald";
+        font-size:50 ;
+    }
+    /* Paragrafos */
+    p, ul{
+        font-family:"Edu NSW ACT Foundation";
+        font-size: 30px;
+    }
+    /* estilizar o menu */
+    .menu{
+        font-family:"Oswald";
+        font-size: 50px;
+        color: blue;
+    }
+
+    /* tirar os sublinhados dos hiperlinks */
+    a{
+      text-decoration: none;  
+    }
+ 
+    i {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .header {
+        background-color: red;
+        position: relative;
+    }
+
+    .perfil, .cabeçalho, .menu {
+        background-color: blue;
+        display: inline-block;
+    }
+
+    .teste {
+        background-color: yellow;
+        position: absolute;
+        bottom: 0;
+    }
+    .cabeçalho {
+        vertical-align: top;
+    }
