@@ -17,6 +17,11 @@
         font-family:"Oswald";
         font-size:50 ;
     }
+    /* centralizando nome*/
+    .cabeçalho h1{
+        text-align: center;
+    }
+
     /* Paragrafos */
     p, ul{
         font-family:"Edu NSW ACT Foundation";
@@ -49,11 +54,11 @@
         display: inline-block;
     }
 
-    .teste {
+    .menu {
         background-color: yellow;
-        position: absolute;
-        bottom: 0;
+    
     }
-    .cabeçalho {
+    .cabeçalho{
+        background-color: green;
         vertical-align: top;
     }
